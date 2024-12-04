@@ -3,7 +3,7 @@ import streamlit as st
 import os
 from together import Together
 
-os.environ['TOGETHER_API_KEY'] = st.secrets["TOGETHER_API_KEY"]
+os.environ['TOGETHER_API_KEY'] = st.secrets["207fee5eecff4d87a306a8566da4cd025ae6b252d14302d980dab27a618033f9"]
 
 # Initialize Together client
 client = Together()
