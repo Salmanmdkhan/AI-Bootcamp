@@ -29,7 +29,7 @@ def generate_code_with_codellama(description):
 
         # Call Together AI
         response = client.chat.completions.create(
-            model="codellama/CodeLlama-34b-Instruct-hf",  # CodeLlama model
+            model="gpt-4o-mini",  # CodeLlama model
             messages=[{"role": "user", "content": prompt}]
         )
 
